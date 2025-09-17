@@ -16,6 +16,7 @@ No* gerarEnd(char valor[20]){
 	}
 	strcpy( novoNo->dado, valor);
 	novoNo->prox = NULL;
+	return novoNo;
 }
 
 int menu(){
